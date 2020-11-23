@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading{
+    height: 17vh;
+    margin: auto;
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    font-family: Sans-serif;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgb(47,150,163), rgb(48,62,143));
+    color: white;
+}
+
+
+#data{
+    height: 30vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(#ede574, #e1f5c4);
+}
+h2{
+    font-size: 250%;
+    color: white;
+}
+#description,
+#temp_kelv{
+    color: black;
+    margin-top: 1%;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.buttonss{
+    height: 3.5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background :linear-gradient(rgb(122, 163, 47), rgb(48, 143, 88));
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100%;
+    
+}
+#button,#button1,#button3,#button4,#button5{
+    
+    background:#A09998;
+    color: white;
+}
+#button:focus,#button1:focus,#button3:focus,#button4:focus,#button5:focus{
+    color: black;
+}
+#button:hover,#button1:hover,#button3:hover,#button4:hover,#button5:hover{
+    color: blue;
+    box-shadow: rgb(47,150,163);
+}
+h3{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+    color: gray;
+
+}
+.mapframe{
+    height: 49vh;
+    margin: auto;
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgb(47,150,163), rgb(48,62,143));
+    
+}
+
+.chartas{
+    width: 50%;
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(rgb(213, 241, 239), rgb(185, 241, 188));
+}
+
+@media only screen and (max-width: 600px) {
+    .chartas{
+        width: 100%;
+        flex-direction: column;
+    }
+    
+  }
